@@ -1,0 +1,1750 @@
+{
+    "total": 1200,
+    "items": [
+        {
+            "id": "539363",
+            "store_id": "4677",
+            "department_id": [
+                "21582796"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 860,
+            "upc": "89604000101",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00896040001011",
+            "reference_ids": [
+                "00896040001011"
+            ],
+            "name": "Pawleys Island Specialty Foods Palmetto Cheese, Homestyle Pimento 11 Oz",
+            "size": "11 oz",
+            "shelf_tag_ids": [
+                "22155228"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.682,
+            "cover_image": "00896040001011/fbaa356fd07612273193afe530dd21c9",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00896040001011",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Dairy Products",
+                "sequence": 654,
+                "identifier": "17100000",
+                "id": "22255051"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/dairy/cheese/snacking_cheese_spreads_dips/pawleys_island_specialty_foods_palmetto_cheese_homestyle_pimento_11_oz/p/539363"
+        },
+        {
+            "id": "2330900",
+            "store_id": "4677",
+            "department_id": [
+                "21583752"
+            ],
+            "price": "$1.88",
+            "unit_price": 1.88,
+            "popularity": 5457,
+            "upc": "2410057467",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100574674",
+            "reference_ids": [
+                "00024100574674"
+            ],
+            "name": "Cheez It Cheese Crackers, Original, Single Serve 2.2 Oz",
+            "size": "2.2 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.682,
+            "cover_image": "00024100574674/627660b139e7fa312d994f444585f52e",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100574674",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 7",
+                "sequence": 283,
+                "identifier": "10320000",
+                "id": "22254683"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheese/cheez_it_cheese_crackers_original_single_serve_2_2_oz/p/2330900"
+        },
+        {
+            "id": "2330909",
+            "store_id": "4677",
+            "department_id": [
+                "21583752"
+            ],
+            "price": "$1.88",
+            "unit_price": 1.88,
+            "popularity": 6558,
+            "upc": "2410070496",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100704965",
+            "reference_ids": [
+                "00024100704965"
+            ],
+            "name": "Cheez It Cheese Crackers, White Cheddar, Single Serve 2.2 Oz",
+            "size": "2.2 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.682,
+            "cover_image": "00024100704965/6b60edc49efa02c44d4b761162c4299d",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100704965",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 7",
+                "sequence": 283,
+                "identifier": "10320000",
+                "id": "22254683"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheese/cheez_it_cheese_crackers_white_cheddar_single_serve_2_2_oz/p/2330909"
+        },
+        {
+            "id": "1564405684703971356",
+            "store_id": "4677",
+            "department_id": [
+                "21583752"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 13400,
+            "upc": "2410011487",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100114870",
+            "reference_ids": [
+                "00024100114870"
+            ],
+            "name": "Cheez It Cheese Cracker Chips, Cheddar Sour Cream And Onion 7.5 Oz",
+            "size": "7.5 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.682,
+            "cover_image": "00024100114870/b66000c6b4853f63c0393169bba2f626",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924287796987445",
+                    "reference_id": "tpr_00024100114870_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "1564405684703971356"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 9823,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740603",
+                        "21583752",
+                        "22254721",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Cracker Chips, Cheddar Sour Cream And Onion 7.5 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924287796987445",
+                "reference_id": "tpr_00024100114870_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "1564405684703971356"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 9823,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740603",
+                    "21583752",
+                    "22254721",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Cracker Chips, Cheddar Sour Cream And Onion 7.5 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100114870",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 7",
+                "sequence": 317,
+                "identifier": "10260000",
+                "id": "22254721"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheese/cheez_it_cheese_cracker_chips_cheddar_sour_cream_and_onion_7_5_oz/p/1564405684703971356"
+        },
+        {
+            "id": "1564405684703971355",
+            "store_id": "4677",
+            "department_id": [
+                "21583752"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 14441,
+            "upc": "2410011441",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100114412",
+            "reference_ids": [
+                "00024100114412"
+            ],
+            "name": "Cheez It Cheese Cracker Chips, Double Cheese 7.5 Oz",
+            "size": "7.5 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.682,
+            "cover_image": "00024100114412/c524abf4b168e079cc17c299945be396",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924286597416493",
+                    "reference_id": "tpr_00024100114412_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "1564405684703971355"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 14441,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740603",
+                        "21583752",
+                        "22254721",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Cracker Chips, Double Cheese 7.5 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924286597416493",
+                "reference_id": "tpr_00024100114412_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "1564405684703971355"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 14441,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740603",
+                    "21583752",
+                    "22254721",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Cracker Chips, Double Cheese 7.5 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100114412",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 7",
+                "sequence": 317,
+                "identifier": "10260000",
+                "id": "22254721"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheese/cheez_it_cheese_cracker_chips_double_cheese_7_5_oz/p/1564405684703971355"
+        },
+        {
+            "id": "2330802",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 1487,
+            "upc": "2410010443",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100104437",
+            "reference_ids": [
+                "00024100104437"
+            ],
+            "name": "Cheez It Cheese Crackers, Extra Toasty 12.4 Oz",
+            "size": "12.4 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100104437/d0a554dc150017dc30629072886db15d",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924285196518943",
+                    "reference_id": "tpr_00024100104437_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "2330802"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 1328,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740585",
+                        "740603",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Crackers, Extra Toasty 12.4 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924285196518943",
+                "reference_id": "tpr_00024100104437_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "2330802"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 1328,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740585",
+                    "740603",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Crackers, Extra Toasty 12.4 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100104437",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_extra_toasty_12_4_oz/p/2330802"
+        },
+        {
+            "id": "214486",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$7.48",
+            "unit_price": 7.48,
+            "popularity": 1973,
+            "upc": "2410044070",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100440702",
+            "reference_ids": [
+                "00024100440702"
+            ],
+            "name": "Cheez It Cheese Crackers, Original, Family Size 21.0 Oz",
+            "size": "21 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100440702/a9d25720a129eec2bc199c5ca6eab532",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100440702",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_original_family_size_21_0_oz/p/214486"
+        },
+        {
+            "id": "1564405684712742808",
+            "store_id": "4677",
+            "department_id": [
+                "21582588"
+            ],
+            "price": "$8.48",
+            "unit_price": 8.48,
+            "popularity": 2038,
+            "upc": "89604000112",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00896040001127",
+            "reference_ids": [
+                "00896040001127"
+            ],
+            "name": "Pawley's Island Pimento Cheese With Jalape\u00f1os",
+            "size": "20 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "1564405684712742808/289c62356f5d2a5449f209a8fd1b4837",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00896040001127",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Dairy Products",
+                "sequence": 654,
+                "identifier": "17100000",
+                "id": "22255051"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/dairy/pawley_s_island_pimento_cheese_with_jalapenos/p/1564405684712742808"
+        },
+        {
+            "id": "19447",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$3.48",
+            "unit_price": 3.48,
+            "popularity": 2051,
+            "upc": "2410070566",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100705665",
+            "reference_ids": [
+                "00024100705665"
+            ],
+            "name": "Cheez It Cheese Crackers, Original 7.0 Oz",
+            "size": "7 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100705665/f8b6d651fbccf89c4d0967f70c27329a",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100705665",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_original_7_0_oz/p/19447"
+        },
+        {
+            "id": "11728",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$3.48",
+            "unit_price": 3.48,
+            "popularity": 2895,
+            "upc": "2410070571",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100705719",
+            "reference_ids": [
+                "00024100705719"
+            ],
+            "name": "Cheez It Cheese Crackers, White Cheddar 7.0 Oz",
+            "size": "7 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100705719/838234782e3b0521c20224f6e5d99f32",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100705719",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_white_cheddar_7_0_oz/p/11728"
+        },
+        {
+            "id": "1564405684689325530",
+            "store_id": "4677",
+            "department_id": [
+                "21582588"
+            ],
+            "price": "$8.48",
+            "unit_price": 8.48,
+            "popularity": 3804,
+            "upc": "89604000111",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00896040001110",
+            "reference_ids": [
+                "00896040001110"
+            ],
+            "name": "Pawley's Island Pimento Cheese",
+            "size": "20 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "1564405684689325530/df673f544d826c47e549d45d597bc53e",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00896040001110",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Dairy Products",
+                "sequence": 654,
+                "identifier": "17100000",
+                "id": "22255051"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/dairy/pawley_s_island_pimento_cheese/p/1564405684689325530"
+        },
+        {
+            "id": "19446",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 3977,
+            "upc": "2410059475",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100594757",
+            "reference_ids": [
+                "00024100594757"
+            ],
+            "name": "Cheez It Crunchy Cheese Crackers, Sharp White Cheddar 9.0 Oz",
+            "size": "9 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100594757/f417a0852fd8849ef5667451d50be2fc",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924289667647046",
+                    "reference_id": "tpr_00024100594757_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "19446"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 2799,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Crunchy Cheese Crackers, Sharp White Cheddar 9.0 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924289667647046",
+                "reference_id": "tpr_00024100594757_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "19446"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 2799,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Crunchy Cheese Crackers, Sharp White Cheddar 9.0 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100594757",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_crunchy_cheese_crackers_sharp_white_cheddar_9_0_oz/p/19446"
+        },
+        {
+            "id": "19449",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$3.48",
+            "unit_price": 3.48,
+            "popularity": 5437,
+            "upc": "2410070582",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100705825",
+            "reference_ids": [
+                "00024100705825"
+            ],
+            "name": "Cheez It Cheese Crackers, Reduce Fat Original 6.0 Oz",
+            "size": "6 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100705825/43b462a18aa7746099ce82b3b00c901e",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100705825",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_reduce_fat_original_6_0_oz/p/19449"
+        },
+        {
+            "id": "19454",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 7347,
+            "upc": "2410078887",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100788873",
+            "reference_ids": [
+                "00024100788873"
+            ],
+            "name": "Cheez It Cheese Crackers, Cheddar Jack 12.4 Oz",
+            "size": "12.4 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100788873/290be15acd6408e93fee9d0e189a2ec4",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924290573616717",
+                    "reference_id": "tpr_00024100788873_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "19454"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2024-11-06T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 5663,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740585",
+                        "740603",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "feb9a3dcddf07d537caf222feb7f5693",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Crackers, Cheddar Jack 12.4 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2024-11-06",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924290573616717",
+                "reference_id": "tpr_00024100788873_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "19454"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2024-11-06T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 5663,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740585",
+                    "740603",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "feb9a3dcddf07d537caf222feb7f5693",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Crackers, Cheddar Jack 12.4 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100788873",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_cheddar_jack_12_4_oz/p/19454"
+        },
+        {
+            "id": "19456",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 7348,
+            "upc": "2410078895",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100788958",
+            "reference_ids": [
+                "00024100788958"
+            ],
+            "name": "Cheez It Cheese Crackers, Sharp Cheddar And Parmesan 12.4 Oz",
+            "size": "12.4 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100788958/f5922c5c3906b3130071751af6866142",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924291219539537",
+                    "reference_id": "tpr_00024100788958_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "19456"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 6530,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740603",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Crackers, Sharp Cheddar And Parmesan 12.4 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924291219539537",
+                "reference_id": "tpr_00024100788958_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "19456"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 6530,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740603",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Crackers, Sharp Cheddar And Parmesan 12.4 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100788958",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_sharp_cheddar_and_parmesan_12_4_oz/p/19456"
+        },
+        {
+            "id": "2046037",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 8885,
+            "upc": "2410010445",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100104451",
+            "reference_ids": [
+                "00024100104451"
+            ],
+            "name": "Cheez It Cheese Crackers, Bold Cheddar 9.0 Oz",
+            "size": "9 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100104451/62ad2dce00e2d3c3d226f59be0bd83d8",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924285389456929",
+                    "reference_id": "tpr_00024100104451_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "2046037"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 8330,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740603",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Crackers, Bold Cheddar 9.0 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924285389456929",
+                "reference_id": "tpr_00024100104451_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "2046037"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 8330,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740603",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Crackers, Bold Cheddar 9.0 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100104451",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_bold_cheddar_9_0_oz/p/2046037"
+        },
+        {
+            "id": "19445",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 12622,
+            "upc": "2410059473",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100594733",
+            "reference_ids": [
+                "00024100594733"
+            ],
+            "name": "Cheez It Cheese Crackers, Zesty Cheddar Ranch 9.0 Oz",
+            "size": "9 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.669,
+            "cover_image": "00024100594733/dd3fd494c6ac776617e200cd43d2c125",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924289323714113",
+                    "reference_id": "tpr_00024100594733_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "19445"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 12622,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Cheese Crackers, Zesty Cheddar Ranch 9.0 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924289323714113",
+                "reference_id": "tpr_00024100594733_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "19445"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 12622,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Cheese Crackers, Zesty Cheddar Ranch 9.0 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100594733",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_cheese_crackers_zesty_cheddar_ranch_9_0_oz/p/19445"
+        },
+        {
+            "id": "2195127",
+            "store_id": "4677",
+            "department_id": [
+                "21582592"
+            ],
+            "price": "$3.68",
+            "unit_price": 3.68,
+            "popularity": 3103,
+            "upc": "7495212023",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00074952120239",
+            "reference_ids": [
+                "00074952120239"
+            ],
+            "name": "Ruths Spread, Pimento, Original 12 Oz",
+            "size": "12 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.608,
+            "cover_image": "00074952120239/950b0b4b65840f38670b2e73cc4bcf17",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00074952120239",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Meat Department",
+                "sequence": 502,
+                "identifier": "90000000",
+                "id": "22254898"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/meat/ruths_spread_pimento_original_12_oz/p/2195127"
+        },
+        {
+            "id": "2195132",
+            "store_id": "4677",
+            "department_id": [
+                "21582592"
+            ],
+            "price": "$5.98",
+            "unit_price": 5.98,
+            "popularity": 6350,
+            "upc": "7495224023",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00074952240234",
+            "reference_ids": [
+                "00074952240234"
+            ],
+            "name": "Ruth's Pimento Spread",
+            "size": "24 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.608,
+            "cover_image": "00074952240234/7279ae3a2e4699717a3949c8e960f4da",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00074952240234",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Meat Department",
+                "sequence": 502,
+                "identifier": "90000000",
+                "id": "22254898"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/meat/ruth_s_pimento_spread/p/2195132"
+        },
+        {
+            "id": "2195123",
+            "store_id": "4677",
+            "department_id": [
+                "21582592"
+            ],
+            "price": "$3.68",
+            "unit_price": 3.68,
+            "popularity": 10372,
+            "upc": "7495212014",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00074952120147",
+            "reference_ids": [
+                "00074952120147"
+            ],
+            "name": "Ruth's Hot Pimento Spread",
+            "size": "12 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.608,
+            "cover_image": "00074952120147/3172dce35bef1b546bb7098d4388936d",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00074952120147",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Meat Department",
+                "sequence": 502,
+                "identifier": "90000000",
+                "id": "22254898"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/meat/ruth_s_hot_pimento_spread/p/2195123"
+        },
+        {
+            "id": "6812678",
+            "store_id": "4677",
+            "department_id": [
+                "21583175"
+            ],
+            "price": "$5.28",
+            "unit_price": 5.28,
+            "popularity": 12868,
+            "upc": "2410011062",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00024100110629",
+            "reference_ids": [
+                "00024100110629"
+            ],
+            "name": "Cheez It Crackers, Bacon And Cheddar 12.4 Oz",
+            "size": "12.4 oz",
+            "shelf_tag_ids": [
+                "230986"
+            ],
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.608,
+            "cover_image": "00024100110629/ceb0ecc06c1a9af487612b6ff1518d5d",
+            "enforce_product_inventory": false,
+            "offers": [
+                {
+                    "id": "3434924286152820266",
+                    "reference_id": "tpr_00024100110629_31733984b950844d572a61bee307579f",
+                    "type_id": "1",
+                    "store_card_required": true,
+                    "product_ids": [
+                        "6812678"
+                    ],
+                    "start_date": "2024-08-15T00:00:00.000+00:00",
+                    "finish_date": "2025-01-01T23:59:59.000+00:00",
+                    "is_suppressed": false,
+                    "popularity": 9597,
+                    "product_shelf_tag_ids": [
+                        "230986"
+                    ],
+                    "product_tag_ids": [
+                        "215423",
+                        "230986",
+                        "740585",
+                        "740603",
+                        "21583175",
+                        "22254676",
+                        "22475760",
+                        "22593205"
+                    ],
+                    "product_status_id": "1",
+                    "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                    "similarity_priority": 2,
+                    "name": "Cheez It Crackers, Bacon And Cheddar 12.4 Oz",
+                    "sale_price": "$4.98",
+                    "sale_price_md": "**$4.98**"
+                }
+            ],
+            "sale_start_date": "2024-08-15",
+            "sale_finish_date": "2025-01-01",
+            "store_card_required": true,
+            "sale_price": "$4.98",
+            "sale_price_md": "**$4.98**",
+            "sale_offer": {
+                "id": "3434924286152820266",
+                "reference_id": "tpr_00024100110629_31733984b950844d572a61bee307579f",
+                "type_id": "1",
+                "store_card_required": true,
+                "product_ids": [
+                    "6812678"
+                ],
+                "start_date": "2024-08-15T00:00:00.000+00:00",
+                "finish_date": "2025-01-01T23:59:59.000+00:00",
+                "is_suppressed": false,
+                "popularity": 9597,
+                "product_shelf_tag_ids": [
+                    "230986"
+                ],
+                "product_tag_ids": [
+                    "215423",
+                    "230986",
+                    "740585",
+                    "740603",
+                    "21583175",
+                    "22254676",
+                    "22475760",
+                    "22593205"
+                ],
+                "product_status_id": "1",
+                "similarity_id": "c07648c27ae65d5ed8882de078cf2543",
+                "similarity_priority": 2,
+                "name": "Cheez It Crackers, Bacon And Cheddar 12.4 Oz",
+                "sale_price": "$4.98",
+                "sale_price_md": "**$4.98**"
+            },
+            "offer_sale_price": 4.98,
+            "sale_configuration_type_id": "1",
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00024100110629",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Aisle 8",
+                "sequence": 275,
+                "identifier": "10400000",
+                "id": "22254676"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/pantry/snacks_chips_dips/crackers/cheez_it_crackers_bacon_and_cheddar_12_4_oz/p/6812678"
+        },
+        {
+            "id": "2195130",
+            "store_id": "4677",
+            "department_id": [
+                "21582592"
+            ],
+            "price": "$4.38",
+            "unit_price": 4.38,
+            "popularity": 15083,
+            "upc": "7495215005",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00074952150052",
+            "reference_ids": [
+                "00074952150052"
+            ],
+            "name": "Ruth's Old Fashion Pimento Spd",
+            "size": "16 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.608,
+            "cover_image": "00074952150052/1b9d603dc199ce6851a747d4083b0826",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00074952150052",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Meat Department",
+                "sequence": 502,
+                "identifier": "90000000",
+                "id": "22254898"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/meat/ruth_s_old_fashion_pimento_spd/p/2195130"
+        },
+        {
+            "id": "2195118",
+            "store_id": "4677",
+            "department_id": [
+                "21582592"
+            ],
+            "price": "$4.38",
+            "unit_price": 4.38,
+            "popularity": 15274,
+            "upc": "7495212000",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00074952120000",
+            "reference_ids": [
+                "00074952120000"
+            ],
+            "name": "Ruth's Lite Pimento Spread",
+            "size": "12 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.608,
+            "cover_image": "00074952120000/cd8771ac4e567b13d416a85753a0e7db",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00074952120000",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Meat Department",
+                "sequence": 502,
+                "identifier": "90000000",
+                "id": "22254898"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/meat/ruth_s_lite_pimento_spread/p/2195118"
+        },
+        {
+            "id": "44038",
+            "store_id": "4677",
+            "department_id": [
+                "21582633"
+            ],
+            "price": "$5.49",
+            "unit_price": 5.49,
+            "popularity": 3015,
+            "upc": "7580587486",
+            "status_id": "1",
+            "fulfillment_type_ids": [
+                "1",
+                "2"
+            ],
+            "reference_id": "00075805874866",
+            "reference_ids": [
+                "00075805874866"
+            ],
+            "name": "Stella\u00ae Parmesan Cheese 8 Oz. Wedge",
+            "size": "8 oz",
+            "substitution_type_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "relevance": -0.28,
+            "cover_image": "44038/077173aa98ab366d1fd9fc4011f8f016",
+            "enforce_product_inventory": false,
+            "has_featured_offer": false,
+            "status": "available",
+            "identifier": "00075805874866",
+            "quantity_initial": 1.0,
+            "fulfillment_type_id": "1",
+            "fulfillment_walkpath": {
+                "name": "Deli Department",
+                "sequence": 668,
+                "identifier": "91000000",
+                "id": "22255065"
+            },
+            "canonical_url": "https://shop.ingles-markets.com/shop/deli/packaged_cheese/stella_parmesan_cheese_8_oz_wedge/p/44038"
+        }
+    ]
+}
