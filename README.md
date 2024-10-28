@@ -15,6 +15,9 @@ Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98
 - Aldi ❌
 - Lidl ❌
 - IGA ❌
+#### Files:
+- **ingles.py**: Webscraper for the Ingles Inventory API
+- **main.py**: Implementation of the Ingles scraper
 
 ## Example
 ```python
