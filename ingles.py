@@ -37,10 +37,10 @@ class Ingles():
         self.url = url_specifier['url']
         self.headers = self.__make_headers(url_specifier['headers'])
         self.page = self.session.get(self.url, headers=self.headers) #, allow_redirects=False
-        print("Accessing", self.url)
-        print("Got response", self.page.status_code)
-        #print("Headers:\n", self.page.headers)
-        #print("Cookies:\n", self.page.cookies) #cookies I sent
+        #print("Accessing", self.url) #Debug: displays the url being accessed
+        #print("Got response", self.page.status_code) #Debug: response code
+        #print("Headers:\n", self.page.headers) #Debug: displays headers sent
+        #print("Cookies:\n", self.page.cookies) #Debug: cookies sent
         with open("headers.json","w") as f:
             json.dump(json.loads(self.page.text),f,indent=4) #loads() converts the given string to good json with indent for pretty print
         return self.__process_json(json.loads(self.page.text))
