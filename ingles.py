@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import re
@@ -112,13 +112,3 @@ class Ingles():
         headers = data["headers"]["api"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
         url = data["url"]["api"].format(product=product)
         return (headers,url)
-'''
-Process:
-1. Access Ingles Product Inventory API
-2. Set the location and requets time in the headers and request website
-4. Process response json and create an array of items: their names,their prices, price per given unit, on sale?, the sale price (if so). Format like so: Boar's Head Swiss Cheese, With Interleaf $7.19, price(7.19)/amount(7 oz)
-5. Find the given number of lowest prices
-6. Display them
-7. Return them
-8. Overhead program will display the cheapest option among those found
-'''
