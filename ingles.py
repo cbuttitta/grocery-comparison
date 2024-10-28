@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import re
-
+import tomllib
 class _Item():
     def __init__(self, item):
         self.name = item["name"]
@@ -33,22 +33,22 @@ class Ingles():
         items = self.__access_api()
         return self.__item_calculate(items,number_items_to_consider) #number of cheapest items to show
     def __access_api(self):
-        url_specifier = self.__get_url("api",self.product) #gets the url and appropriate heards for the ingles product api
-        self.url = url_specifier['url']
-        self.headers = self.__make_headers(url_specifier['headers'])
+        url_specifier = self.__get_url(self.product) #gets the url and appropriate heards for the ingles product api
+        self.url = url_specifier[1]
+        self.headers = self.__make_headers(url_specifier[0])
         self.page = self.session.get(self.url, headers=self.headers) #, allow_redirects=False
         #print("Accessing", self.url) #Debug: displays the url being accessed
         #print("Got response", self.page.status_code) #Debug: response code
         #print("Headers:\n", self.page.headers) #Debug: displays headers sent
         #print("Cookies:\n", self.page.cookies) #Debug: cookies sent
-        with open("headers.json","w") as f:
+        with open("data.json","w") as f:
             json.dump(json.loads(self.page.text),f,indent=4) #loads() converts the given string to good json with indent for pretty print
         return self.__process_json(json.loads(self.page.text))
 
     def __process_json(self, data): #returns a list of the items to be dealt with in item_calculate
         items = []
         if(data == None):
-            with open("headers.json", "r") as file:
+            with open("data.json", "r") as file:
                 data = json.load(file)
         number_of_items = data["total"]
         for entity in data["items"]:
@@ -103,89 +103,15 @@ class Ingles():
             headers[header_string.splitlines()[x].replace(":","")] = header_string.splitlines()[x+1]
         return headers
     
-    def __get_url(self, where,product): #gets the appropriate url and headers with the needed variables such as date (now) and location(#3 Merrimack Avenue, Asheville, North Carolina)
+    def __get_url(self, product): #gets the appropriate url and headers with the needed variables such as date (now) and location(#3 Merrimack Avenue, Asheville, North Carolina)
         product = product.replace(" ", "%20").replace("\'", "%27")
-        header_strings = {
-            "main": { 
-                "url":"https://shop.ingles-markets.com/",
-                "headers":f''':authority:
-shop.ingles-markets.com
-:method:
-GET
-:path:
-/
-:scheme:
-https
-accept:
-text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-accept-encoding:
-gzip, deflate, br, zstd
-accept-language:
-en-US,en;q=0.9
-cookie:
-_ga=GA1.1.285166733.1729690743; _gcl_au=1.1.1965432026.1729690756; fp-session=%7B%22token%22%3A%22e6b38065c5bd96d832c53989e11ef59c%22%2C%22shopIntentModalLastViewedAt%22%3A1729697724352%7D; fp-pref=%7B%22store_id%22%3A%224677%22%7D; pref=%7B%22store_id%22%3A%224677%22%7D; fp-history=%7B%220%22%3A%7B%22name%22%3A%22%2Fcurbside-faq%22%7D%7D; _ga_53ZMPVPQGP=GS1.1.1729862627.5.1.1729867646.0.0.0; _ga_0MCW5VWV52=GS1.1.1729862644.5.1.1729867648.0.0.0; _ga_D3913E5LX9=GS1.1.1729862644.5.1.1729867648.0.0.0
-if-modified-since:
-{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")}
-priority:
-u=0, i
-sec-ch-ua:
-"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
-sec-ch-ua-mobile:
-?0
-sec-ch-ua-platform:
-"Linux"
-sec-fetch-dest:
-document
-sec-fetch-mode:
-navigate
-sec-fetch-site:
-none
-sec-fetch-user:
-?1
-upgrade-insecure-requests:
-1
-user-agent:
-Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'''
-            },
-            "api":{
-                "url":f"https://api.freshop.ncrcloud.com/1/products?app_key=ingles_markets&fields=id%2Cidentifier%2Cattribution_token%2Creference_id%2Creference_ids%2Cupc%2Cname%2Cstore_id%2Cdepartment_id%2Csize%2Ccover_image%2Cprice%2Csale_price%2Csale_price_md%2Csale_start_date%2Csale_finish_date%2Cprice_disclaimer%2Csale_price_disclaimer%2Cis_favorite%2Crelevance%2Cpopularity%2Cshopper_walkpath%2Cfulfillment_walkpath%2Cquantity_step%2Cquantity_minimum%2Cquantity_initial%2Cquantity_label%2Cquantity_label_singular%2Cvarieties%2Cquantity_size_ratio_description%2Cstatus%2Cstatus_id%2Csale_configuration_type_id%2Cfulfillment_type_id%2Cfulfillment_type_ids%2Cother_attributes%2Cclippable_offer%2Cslot_message%2Ccall_out%2Chas_featured_offer%2Ctax_class_label%2Cpromotion_text%2Csale_offer%2Cstore_card_required%2Caverage_rating%2Creview_count%2Clike_code%2Cshelf_tag_ids%2Coffers%2Cis_place_holder_cover_image%2Cvideo_config%2Cenforce_product_inventory%2Cdisallow_adding_to_cart%2Csubstitution_type_ids%2Cunit_price%2Coffer_sale_price%2Ccanonical_url%2Coffered_together%2Csequence&include_offered_together=true&limit=24&q={product}&relevance_sort=asc&render_id=1729865348812&sort=relevance&store_id=4677&token=e6b38065c5bd96d832c53989e11ef59c",
-                "headers": f''':authority:
-api.freshop.ncrcloud.com
-:method:
-GET
-:path:
-/1/products?app_key=ingles_markets&fields=id%2Cidentifier%2Cattribution_token%2Creference_id%2Creference_ids%2Cupc%2Cname%2Cstore_id%2Cdepartment_id%2Csize%2Ccover_image%2Cprice%2Csale_price%2Csale_price_md%2Csale_start_date%2Csale_finish_date%2Cprice_disclaimer%2Csale_price_disclaimer%2Cis_favorite%2Crelevance%2Cpopularity%2Cshopper_walkpath%2Cfulfillment_walkpath%2Cquantity_step%2Cquantity_minimum%2Cquantity_initial%2Cquantity_label%2Cquantity_label_singular%2Cvarieties%2Cquantity_size_ratio_description%2Cstatus%2Cstatus_id%2Csale_configuration_type_id%2Cfulfillment_type_id%2Cfulfillment_type_ids%2Cother_attributes%2Cclippable_offer%2Cslot_message%2Ccall_out%2Chas_featured_offer%2Ctax_class_label%2Cpromotion_text%2Csale_offer%2Cstore_card_required%2Caverage_rating%2Creview_count%2Clike_code%2Cshelf_tag_ids%2Coffers%2Cis_place_holder_cover_image%2Cvideo_config%2Cenforce_product_inventory%2Cdisallow_adding_to_cart%2Csubstitution_type_ids%2Cunit_price%2Coffer_sale_price%2Ccanonical_url%2Coffered_together%2Csequence&include_offered_together=true&limit=24&q={product}&relevance_sort=asc&render_id=1729865348812&sort=relevance&store_id=4677&token=e6b38065c5bd96d832c53989e11ef59c
-:scheme:
-https
-accept:
-application/json, text/javascript, */*; q=0.01
-accept-encoding:
-gzip, deflate, br, zstd
-accept-language:
-en-US,en;q=0.9
-origin:
-https://shop.ingles-markets.com
-priority:
-u=1, i
-referer:
-https://shop.ingles-markets.com/shop
-sec-ch-ua:
-"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
-sec-ch-ua-mobile:
-?0
-sec-ch-ua-platform:
-"Linux"
-sec-fetch-dest:
-empty
-sec-fetch-mode:
-cors
-sec-fetch-site:
-cross-site
-user-agent:
-Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'''
-            }
-        }
-        return header_strings[where]
+        with open("headers/ingles.toml", "rb") as file:
+            data = tomllib.load(file)
+
+        # Access multiline strings
+        headers = data["headers"]["api"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
+        url = data["url"]["api"].format(product=product)
+        return (headers,url)
 '''
 Process:
 1. Access Ingles Product Inventory API
