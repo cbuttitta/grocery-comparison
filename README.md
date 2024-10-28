@@ -1,9 +1,11 @@
 # grocery-comparison
 Requests and BeautifulSoup4-based web scraping app that scrapes the website for the Ingles grocery store chain for a given product and returns inventory in the form (Name, Price, Weight, Price per Unit) and indicates if a product is on sale, its sale price, and whether a store card is required.
+
+### Example of output displaying data displayed
 ```
 Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98, 0.35, Card Required: Yes
 ```
-###TOML### used for header storage, ###JSON### used for reponse data visualization
+**TOML** used for header storage, **JSON** used for reponse data visualization
 
 #### Grocery Stores Covered:
 - Ingles ✅
@@ -13,6 +15,9 @@ Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98
 - Aldi ❌
 - Lidl ❌
 - IGA ❌
+#### Files:
+- **ingles.py**: Webscraper for the Ingles Inventory API
+- **main.py**: Implementation of the Ingles scraper
 
 ## Example
 ```python
