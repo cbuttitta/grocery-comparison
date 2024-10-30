@@ -33,7 +33,11 @@ class Ingles():
         self.url = url_specifier[1]
         self.headers = self.__make_headers(url_specifier[0])
         self.page = self.session.get(self.url, headers=self.headers)
+<<<<<<< HEAD
         with open("ingles_data.json","w") as f:
+=======
+        with open("data.json","w") as f:
+>>>>>>> 8fa7d797120d8c69e033eac5585e4737a3b5db14
             json.dump(json.loads(self.page.text),f,indent=4) #loads() converts the given string to good json with indent for pretty print
         return self.__process_json(json.loads(self.page.text))
 

@@ -1,11 +1,11 @@
 # grocery-comparison
-Requests and BeautifulSoup4-based web scraping app that scrapes the website for the Ingles grocery store chain for a given product and returns inventory in the form (Name, Price, Weight, Price per Unit) and indicates if a product is on sale, its sale price, and whether a store card is required.
+Requests-based data aggregation app that generates requests for the product inventory API of the Ingles grocery store chain website for a given product and returns a given quantity of the cheapest inventory in the form (Name, Price, Weight, Price per Unit) and indicates if a product is on sale, its sale price, and whether a store card is required. Requests for misspelled or non-existent products are handled using the website suggestion API to display suggested products that the user might have meant to search for.
 
 ### Example of output displaying data displayed
 ```
 Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98, 0.35, Card Required: Yes
 ```
-**TOML** used for header storage, **JSON** used for reponse data visualization
+Locally-hosted **TOML** used for http-header storage, **JSON** data generated dynamically for response data visualization
 
 #### Grocery Stores Covered:
 - Ingles ✅
@@ -23,7 +23,9 @@ Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98
 ```python
 import ingles
 
-product = input("Enter product: ")
+product = ""
+while product == "": #product can't be blank
+    product = input("Enter product: ")
 number_items_to_consider = 2 #number of cheapest items to display
 ingles_scraper = ingles.Ingles(product) #create Ingles object to start a session
 ingles_scraper.find_discounts(number_items_to_consider) #displays the two cheapest items found
