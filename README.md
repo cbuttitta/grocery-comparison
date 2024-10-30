@@ -5,7 +5,7 @@ Requests and BeautifulSoup4-based web scraping app that scrapes the website for 
 ```
 Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98, 0.35, Card Required: Yes
 ```
-**TOML** used for header storage, **JSON** used for reponse data visualization
+Locally-hosted **TOML** used for http-header storage, **JSON** data generated dynamically for response data visualization
 
 #### Grocery Stores Covered:
 - Ingles ✅
@@ -23,7 +23,9 @@ Tyson Chicken Breast Fillets 25 Oz, Normal Price $9̶.̶9̶8̶, Sale Price $8.98
 ```python
 import ingles
 
-product = input("Enter product: ")
+product = ""
+while product == "": #product can't be blank
+    product = input("Enter product: ")
 number_items_to_consider = 2 #number of cheapest items to display
 ingles_scraper = ingles.Ingles(product) #create Ingles object to start a session
 ingles_scraper.find_discounts(number_items_to_consider) #displays the two cheapest items found
