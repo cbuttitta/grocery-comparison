@@ -1,5 +1,5 @@
 # grocery-comparison
-Requests and BeautifulSoup4-based web scraping app that scrapes the website for the Ingles grocery store chain for a given product and returns inventory in the form (Name, Price, Weight, Price per Unit) and indicates if a product is on sale, its sale price, and whether a store card is required.
+Requests-based data aggregation app that generates requests for the product inventory API of the Ingles grocery store chain website for a given product and returns a given quantity of the cheapest inventory in the form (Name, Price, Weight, Price per Unit) and indicates if a product is on sale, its sale price, and whether a store card is required. Requests for misspelled or non-existent products are handled using the website suggestion API to display suggested products that the user might have meant to search for.
 
 ### Example of output displaying data displayed
 ```
