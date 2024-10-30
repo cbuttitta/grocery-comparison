@@ -1,46 +1,38 @@
 import requests
-#from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import re
 import tomllib
 class _Item():
     def __init__(self, item):
-        self.name = item["name"]
+        self.name = item["name"] #name of the item
         self.price = int(re.sub(r'[^0-9]', '', item["price"])) #remove all non-numeric values and make an int $7.19 -> 719
+        self.on_sale = False
         if("sale_price" in item): #check if item is on sale and display that price
-            self.old_price = self.price
-            self.price = int(re.sub(r'[^0-9]', '', item["sale_price"]))
+            self.old_price = self.price #the usual price
+            self.price = int(re.sub(r'[^0-9]', '', item["sale_price"])) #resets price to the sales price for calculaiton purposes
             self.on_sale = True
             if("store_card_required" in item):
                 self.card_needed = 'Yes' if bool(item["store_card_required"]) == True else 'No'
-        else:   
-            self.on_sale = False
-        if(re.sub('[a-zA-Z]', '', item["size"]) == ''): #size is 'lb'and has no numeric value
+        if(re.sub('[a-zA-Z]', '', item["size"]) == ''): #size is something like 'lb' and has no numeric value
             self.size = (1,item["size"])
-        else: #size has a numeric value
+        else: #size has a numeric value like '7oz'
             self.size = (float(re.sub('[a-zA-Z]', '', item["size"])),re.sub(r'[^a-z]', '', item["size"])) #'7oz' -> (7, 'oz')
-        self.price_per_measure = int(self.price/self.size[0])
+        self.price_per_measure = int(self.price/self.size[0]) #price per listed measure in size
 class Ingles():
     def __init__(self, product):
         print("\033[31mIngles\033[0m") #prints Ingles in red
         self.name = "Ingles"
         self.session = requests.Session() #create sesison for coherency and authentic-looking requests
         self.product = product
-        #self.soup = BeautifulSoup(self.page.content, "html.parser")
-    
     def find_discounts(self,number_items_to_consider):
         items = self.__access_api()
         return self.__item_calculate(items,number_items_to_consider) #number of cheapest items to show
     def __access_api(self):
-        url_specifier = self.__get_url(self.product) #gets the url and appropriate heards for the ingles product api
+        url_specifier = self.__get_url(self.product,"api") #gets the url and appropriate heards for the ingles product api
         self.url = url_specifier[1]
         self.headers = self.__make_headers(url_specifier[0])
-        self.page = self.session.get(self.url, headers=self.headers) #, allow_redirects=False
-        #print("Accessing", self.url) #Debug: displays the url being accessed
-        #print("Got response", self.page.status_code) #Debug: response code
-        #print("Headers:\n", self.page.headers) #Debug: displays headers sent
-        #print("Cookies:\n", self.page.cookies) #Debug: cookies sent
+        self.page = self.session.get(self.url, headers=self.headers)
         with open("data.json","w") as f:
             json.dump(json.loads(self.page.text),f,indent=4) #loads() converts the given string to good json with indent for pretty print
         return self.__process_json(json.loads(self.page.text))
@@ -51,6 +43,10 @@ class Ingles():
             with open("data.json", "r") as file:
                 data = json.load(file)
         number_of_items = data["total"]
+        if(number_of_items == 0): #check if there are any items listed, and if not check suggestions url
+            print("No items found!")
+            print("Did you mean?:",self.__get_suggestions())
+            exit()
         for entity in data["items"]:
             items.append(_Item(entity)) #create a list of Item objects
         return items    
@@ -103,12 +99,24 @@ class Ingles():
             headers[header_string.splitlines()[x].replace(":","")] = header_string.splitlines()[x+1]
         return headers
     
-    def __get_url(self, product): #gets the appropriate url and headers with the needed variables such as date (now) and location(#3 Merrimack Avenue, Asheville, North Carolina)
+    def __get_suggestions(self):
+        url_specifier = self.__get_url(self.product,"suggestions") #gets the url and appropriate heards for the ingles product api
+        self.url = url_specifier[1]
+        self.headers = self.__make_headers(url_specifier[0])
+        self.page = self.session.get(self.url, headers=self.headers) #, allow_redirects=False
+        data = json.loads(self.page.text)
+        if("did_you_mean" in data):
+            response = ", ".join(data["did_you_mean"]) if type (data["did_you_mean"]) == list else data["did_you_mean"]
+        else:
+            response = "No suggestions found"
+        return response
+    def __get_url(self, product, which): #gets the appropriate url and headers with the needed variables such as date (now) and location(#3 Merrimack Avenue, Asheville, North Carolina)
         product = product.replace(" ", "%20").replace("\'", "%27")
         with open("headers/ingles.toml", "rb") as file:
             data = tomllib.load(file)
 
         # Access multiline strings
-        headers = data["headers"]["api"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
-        url = data["url"]["api"].format(product=product)
+        headers = data["headers"][which].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
+        url = data["url"][which].format(product=product)
         return (headers,url)
+    
