@@ -1,5 +1,5 @@
 # grocery-comparison
-Requests-based data aggregation app that generates requests for the product inventory API of the Ingles and Walmart grocery store websites for a given product and returns a given quantity of the cheapest inventory in the form (Name, Price, Weight, Price per Unit) and indicates if a product is on sale, its sale price, and whether a store card is required. Requests for misspelled or non-existent products are handled using the website suggestion API to display suggested products that the user might have meant to search for.
+Requests-based data aggregation app that generates requests for the product inventory API of the Ingles and Walmart grocery store websites for a given product and returns a given quantity of the cheapest inventory in the form (Name, Price, Weight, Price per Unit) sorted using a quick sort algorithm and indicates if a product is on sale, its sale price, and whether a store card is required. Requests for misspelled or non-existent products are handled using the website suggestion API to display suggested products that the user might have meant to search for.
 
 ### Example of output displaying data displayed
 ```
