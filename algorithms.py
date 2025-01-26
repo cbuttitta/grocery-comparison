@@ -52,7 +52,7 @@ class Ingles():
         self.url = url_specifier[1]
         self.headers = self.__make_headers(url_specifier[0])
         self.page = self.session.get(self.url, headers=self.headers)
-        with open(f"data/{self.store}_data.json""w") as f:
+        with open(f"data/{self.store}_data.json","w") as f:
             json.dump(json.loads(self.page.text),f,indent=4) #loads() converts the given string to good json with indent for pretty print
         return self.__process_json(json.loads(self.page.text))
 
@@ -124,8 +124,8 @@ class Ingles():
         # Access multiline strings
         #headers = data["headers"][which].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
         #url = data["url"][which].format(product=product)
-        headers = data["headers"][f"{self.store}.{which}"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
-        url = data["url"][f"{self.store}.{which}"].format(product=product)
+        headers = data["headers"][f"{self.store}-{which}"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
+        url = data["url"][f"{self.store}-{which}"].format(product=product)
         return (headers,url)
 
 class Walmart():
@@ -138,7 +138,7 @@ class Walmart():
         items = self.__access_api()
         return self.__item_calculate(items,number_items_to_consider) #number of cheapest items to show
     def __access_api(self):
-        url_specifier = self.__get_url(self.product,"api") #gets the url and appropriate headers for the walmart product api
+        url_specifier = self.__get_url(self.product,"api") #gets the url and appropriate headers for the walmart catalog api for the requested product
         self.url = url_specifier[1]
         self.headers = self.__make_headers(url_specifier[0])
         self.page = self.session.get(self.url, headers=self.headers)
@@ -161,6 +161,8 @@ class Walmart():
             json.dump(item_catalog,f,indent=4)
         for entity in item_catalog:
             if entity["__typename"] == "Product":
+                if not entity["priceInfo"]["currentPrice"]:
+                    continue
                 items.append(_Item(entity,self.store)) #create a list of Item objects
         
         return items    
@@ -215,8 +217,7 @@ class Walmart():
         product = product.replace(" ", "%20").replace("\'", "%27")
         with open("headers/headers.toml", "rb") as file:
             data = tomllib.load(file)
-
         # Access multiline strings
-        headers = data["headers"][f"{self.store}.{which}"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
-        url = data["url"][f"{self.store}.{which}"].format(product=product)
+        headers = data["headers"][f"{self.store}-{which}"].format(product=product, date=datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT"))
+        url = data["url"][f"{self.store}-{which}"].format(product=product)
         return (headers,url)   
