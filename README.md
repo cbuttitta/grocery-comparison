@@ -41,8 +41,11 @@ for item in item_list:
 ```
 ## Output
 ```console
-$~> Enter Product: chicken breast
-2 Cheapest Items:
-Fried Chicken Breast: Price: $2.19, Price per Measure: $2.19 per ea
-Tyson Bone In Split Chicken Breast Family Pack: Price: $2.98, Price per Measure: $2.98 per lb
+$~> Enter Product: grapes
+Name, Price, Price per Measure, Size, Price per Measure
+-------------------------
+walmart Marketside Fresh Seedless Grapes, 10 oz: Price: $3.47, Price per Measure: 34.7 ¢/oz
+walmart Fresh Blueberries, 18 oz Container: Price: $4.84, Price per Measure: 26.9 ¢/oz
+ingles Mott's Juice Beverage, Apple White Grape 64 Oz: Old Price $4.28, Sale Price $1.98, Card Required: Yes, Price per Measure: 0.03 ¢/oz
+ingles Grape Nuts Cereal, The Original 20.5 Oz: Old Price $5.48, Sale Price $2.98, Card Required: Yes, Price per Measure: 0.15 ¢/oz
 ```
